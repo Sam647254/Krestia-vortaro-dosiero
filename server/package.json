@@ -1,0 +1,14 @@
+{
+  "name": "krestia-vortaro-dosiero-server",
+  "version": "0.0.1",
+  "description": "Server for LSP of Krestia dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Wang",
+  "license": "Unlicense",
+  "dependencies": {
+    "vscode-languageserver": "^6.1.1"
+  }
+}

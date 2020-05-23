@@ -14,10 +14,13 @@
 	],
 	"main": "./client/out/extension.js",
 	"contributes": {
-		"commands": [
+		"languages": [
 			{
-				"command": "krestia-vortaro-dosiero.helloWorld",
-				"title": "Hello World"
+				"id": "krestia-vortaro",
+				"extensions": [
+					".kv"
+				],
+				"aliases": ["Krestia vortaro"]
 			}
 		]
 	},

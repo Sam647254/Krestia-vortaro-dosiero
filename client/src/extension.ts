@@ -6,7 +6,7 @@ import { ServerOptions, TransportKind, LanguageClientOptions, LanguageClient } f
 let client: LanguageClient;
 
 export function activate(context: vscode.ExtensionContext) {
-	const servilo = context.asAbsolutePath(path.join("server/out/server.js"));
+	const servilo = context.asAbsolutePath(path.join("server", "out", "server.js"));
 	const debugAgordoj = { execArgv: ['--nolazy', '--inspect=6009'] };
 	const serviloAgordoj: ServerOptions = {
 		run: {
